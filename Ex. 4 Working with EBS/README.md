@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**:Thuleer R
+* **Register Number**: 212225230285
+* **Date of Submission**: 05-09-26
 
 ---
 
@@ -80,11 +80,13 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 (Write the steps you followed in your own words)
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+1.Created an EBS volume in the same Availability Zone as the EC2 instance and selected the required volume size and type.
+
+2.Attached the newly created EBS volume to the running EC2 instance and connected to the instance using SSH.
+
+3.Formatted the attached volume with the ext4 file system and mounted it to the /data directory.
+
+4.Created sample files in the mounted EBS volume, rebooted the EC2 instance, and verified that the stored data was still available.
 
 ---
 
@@ -92,19 +94,20 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1824" height="866" alt="EX4 1" src="https://github.com/user-attachments/assets/80d408f8-7b9c-4d1c-9183-d119d8754c38" />
 
----
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="EX4 2" src="https://github.com/user-attachments/assets/3a8d685d-41a5-42d5-9ea3-371c585a04c3" />
+
 
 ---
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
+<img width="1920" height="1200" alt="EX4 3" src="https://github.com/user-attachments/assets/1e50587c-7f44-4d53-9d46-1f0fcb1f815d" />
+
 
 ---
 
